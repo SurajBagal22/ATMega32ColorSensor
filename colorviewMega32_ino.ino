@@ -76,6 +76,10 @@ void loop()
   Serial.print(" "); 
   Serial.print((PORTB & (1 << sensorLedPin)) ? 1 : 0); 
   Serial.print(" ");
+  Serial.print(clear); Serial.print(" ");
+  Serial.print(red); Serial.print(" ");
+  Serial.print(green); Serial.print(" ");
+  Serial.print(blue); Serial.print(" ");
 }
 
 // Toggle the led on or off if the button was pressed.
